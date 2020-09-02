@@ -1,0 +1,70 @@
+body {
+    background-color: #ffc107;
+    color: #483D8B;
+   
+   }
+   
+   div.impact {
+   text-align: center;
+   font-family: Verdana;
+   
+   }
+   
+   h1.impact {
+   background-color:#66ffff;
+    color: #ad0099;
+     font-family: Impact, Charcoal, sans-serif;
+   text-align: center;
+   text-decoration: underline;
+   }
+   
+   h2.impact {
+     font-family: Verdana;
+   color: #ad0099;
+   }
+   
+   p {
+    color: #000000;
+    text-align: center;
+    padding:3%;
+   font-family: Verdana;
+    }
+   table {
+     width:20%;
+   }
+    table,th, td {
+     border: 1px solid black;
+     border-collapse: collapse;
+   }
+   
+   
+   th, td {
+     Color:#483D8B;
+     padding: 1%;
+     text-align: center;
+    
+   }
+   .center tr:nth-child(even) {
+     background-color: #eee;
+    
+   }
+   
+   .center tr:nth-child(odd) {
+    background-color: #fff;
+    
+   }
+   .center th {
+     background-color: black;
+     color: white;
+    
+   }
+   .center tr:nth-child(odd) {
+    background-color: #fff;
+    
+   }
+   .center th {
+     background-color: black;
+     color: white;
+    
+   }
+   
