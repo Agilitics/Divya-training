@@ -63,23 +63,28 @@
     [
       {
         "id":1,
-        "content":"Home"
+        "name":"Home",
+        "routerUrl": "/dashboard"
       },
       {
           "id":2,
-          "content":"About Us"
+          "name":"About Us",
+          "routerUrl": "/aboutus"
       },
       {
           "id":3,
-          "content":"Lawyers"
+          "name":"Lawyers",
+          "routerUrl": "/dashboard"
       },
       {
           "id":4,
-          "content":"Testimonals"
+          "name":"Testimonals",
+          "routerUrl": "/dashboard"
       },
       {
           "id":5,
-          "content":"Contact Us"
+          "name":"Contact Us",
+          "routerUrl": "/dashboard"
       }
     
    ]  

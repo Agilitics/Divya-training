@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import  * as sampleData  from  '../../../assets/data.json';
+import * as sampleData from '../../../../../assets/data.json';
 
 
 @Component({
@@ -9,16 +9,16 @@ import  * as sampleData  from  '../../../assets/data.json';
 })
 export class HeaderComponent implements OnInit {
   data: any = sampleData['default'];
-  header: any =this.data.header;
-
+  header: any = this.data.header;
+  socialMedia: boolean = true;
 
   constructor() { }
 
-  ngOnInit(): void 
+  ngOnInit(): void
   {
     console.log(sampleData);
   }
-   
+
 }
 
 
