@@ -84,7 +84,7 @@
       {
           "id":5,
           "name":"Contact Us",
-          "routerUrl": "/dashboard"
+          "routerUrl": "../app/contactus/contactus.component"
       }
     
    ]  
