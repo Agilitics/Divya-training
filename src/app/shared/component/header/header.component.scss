@@ -1,0 +1,17 @@
+.navbar.transparent.navbar-inverse .navbar-inner {
+    background: rgba(0,0,0,0.4);
+ }
+ .navbar-nav { 
+    margin-left: auto; 
+} 
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    
+  }
+  .nav-link{
+      font-family: verdana;
+      font-size:110%;
+  }
+  .scrolled { background-color: rgba(0, 0, 0, 0.514); -webkit-transition: background-color 500ms linear; -moz-transition: background-color 500ms linear; -ms-transition: background-color 500ms linear; transition: background-color 500ms linear; }

@@ -1,0 +1,92 @@
+{
+    "attorneys":
+    [
+        {
+            "id": 1,
+            "heading": "Family Attorney",
+            "description": "Family lawyers provide legal representation to individuals or families regarding issues such as adoption, children's rights, divorce, and estates and trusts. Family law is a multifaceted field in which lawyers work on both civil and criminal",
+            "imageSrc": "https://www.freeman-freeman.com/motorcycle%20accident%20.jpg"
+        },
+        {
+            "id": 2,
+            "heading": "Accidents Attorney",
+            "description": "If you have been injured in a car crash, you should contact an injury lawyer as soon as possible, even before speaking to an insurance adjuster or insurance company. By speaking to a lawyer after a crash, you can ensure that you will be protected from private investigators and insurance adjusters who want to hurt your case. A lawyer will handle your case so that you can focus on your recovery by getting the right medical treatment and receiving the full money award or settlement that you deserve",
+            "imageSrc": "https://www.freeman-freeman.com/motorcycle%20accident%20.jpg"
+        },
+        {
+            "id": 3,
+            "heading": "Business Attorney",
+            "description": "We provide a complete and comprehensive experience for professional business legal services including books & records, breach of fiduciary duty, breach of contract, business divorce, business formation, lawyer negotiated deals and contract review, Delaware law, general counsel and Delaware opinion letters",
+            "imageSrc": "https://d1dh93s7n44ml6.cloudfront.net/blog/wp-content/uploads/2017/01/05142350/Business-Attorney.jpg"
+        }
+    ],
+
+    "services": 
+    [
+        {
+            "id": 1,
+            "heading": "Free Consultation... Affordable Services",
+            "description": "We understand that many people may be reluctant to contact a lawyer because they’re worried they won’t be able to afford the fees. They may be tempted to try to handle their legal matter themselves, but that’s often a recipe for a less-than-desirable outcome. When you’ve been seriously injured, your custody of your children is at stake, or you’ve been accused of a crime, we want you to have access to the quality representation — and justice — you deserve.That’s why we offer a free consultation about your case so that you can tell your story, learn your options, and discover how we can help. We also offer affordable fees for your family law or criminal case, and charge no fees for your personal injury case unless you obtain compensation for your losses."
+        }
+    ],
+
+
+    "experience": [
+        {
+            "id": 1,
+            "heading": "Experience... When it Matters Most",
+            "description": "Getting the best result for your case means having a team of attorneys with experience in the local courts in Hudson County and the surrounding area. It means having a team with proven results and the detailed knowledge to construct the strongest arguments on your behalf, whether it’s so you can get compensated for an injury, need to protect your best interests in a family or marital dispute, or need to convince a jury that you’re innocent of a crime."
+        }
+    ],
+
+
+    "carousel":
+    [
+        {
+            "id": 1,
+            "heading":"Let us be your ADVOCATE",
+            "description":"We are your go-to firm for many issues life throws your way. Creative, adaptable and ever to your side, we deliver practical advice, seek win-win solutions and get results. See how we can help you.",
+            "imageSrc":"https://blogs.thomsonreuters.com/answerson/wp-content/uploads/sites/3/2020/05/law-firm-800x450.jpg"
+        },
+        {
+            "id":2,
+            "imageSrc":"https://d1imjpjik7kc4g.cloudfront.net/images/Why-Partners-With-Business-in-Law-Firms-Should-Always-Be-Looking-for-New-Firms.jpg"
+        },
+        {
+            "id":3,
+            "imageSrc":"https://citadellawfirm.cm/wp-content/uploads/2017/08/Corporate-and-Commercial-Law-Firms.jpg"
+        }
+
+    ],
+ 
+    "header":
+    [
+      {
+        "id":1,
+        "name":"Home",
+        "routerUrl": "/dashboard"
+      },
+      {
+          "id":2,
+          "name":"About Us",
+          "routerUrl": "/aboutus"
+      },
+      {
+          "id":3,
+          "name":"Lawyers",
+          "routerUrl": "/dashboard"
+      },
+      {
+          "id":4,
+          "name":"Testimonals",
+          "routerUrl": "/dashboard"
+      },
+      {
+          "id":5,
+          "name":"Contact Us",
+          "routerUrl": "/contactus"
+      }
+    
+   ]  
+}
+

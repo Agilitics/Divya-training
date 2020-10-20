@@ -1,0 +1,54 @@
+<div class="container">
+
+    <div class="row">
+
+        <div class="col-xl-8 offset-xl-2 py-5">
+            <h1>Contact form</h1>
+
+            <p class="lead">Quality Legal service starts from us . Call (000) 000-0000 or submit the form below to request a consultation.</p>
+
+            <form id="contact-form" method="post" role="form" [formGroup]="form" (ngSubmit)="submitForm()">
+                    <div class="formGroup">
+
+                     <input type="text" [formControlName]="'firstname'"/>
+                       <div *ngIf="form.get('firstname').hasError('required')"> Firstname is required field</div>
+                     <input type="text" [formControlName]="'lastname'"/>
+                       <div *ngIf="form.get('lastname').hasError('required')"> Lastname is required field</div>
+                     
+
+                   </div>
+                      <div class="col-md-6">
+                         <div class="formGroup">
+                              <label for="form_need">Please specify your need *</label>
+                              <select id="form_need" name="need" class="form-control" required="required" data-error="Please specify your need.">
+                                 <option value=""></option>
+                                 <option value="Family Attorney">Family Attorney</option>
+                                 <option value="Accidents Attorney">Accidents Attorney</option>
+                                 <option value="Buisness Attorney">Business Attorney</option>
+                                 <option value="Other">Other</option>
+                              </select>
+                              <div class="help-block with-errors"></div>
+                           </div>
+                       </div>
+             
+                       <input type="text" [formControlName]="'email'"/>
+              <div *ngIf="form.get('email').hasError('required')"> Email is required field</div>
+               <div class="row">
+                  <div class= "formGroup">
+                          <label>Code</label>
+                           <select class ="form-control">
+                              <option value="">choose country code</option>
+                              <option *ngFor="let code of codes" [value]="code">{{code}}</option>
+                           </select>
+                  </div>
+
+                       <input type="number" [formControlName]="'phone'"/>
+                       <div *ngIf="form.get('phone').hasError('required')"> Phone is required field</div>
+               </div>
+                <input type="text" [formControlName]="'message'"/>
+                <button type="submit"> Submit</button>
+                               
+            </form>
+        </div>
+    </div>
+</div>       
